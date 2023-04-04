@@ -1,7 +1,6 @@
-import pyautogui
+import pyautogui 
 import time
 import tkinter as tk
-
 
 def main():
     name = int(round(time.time())*1000)
@@ -20,4 +19,3 @@ button.pack(side=tk.LEFT)
 close = tk.Button(frame, text="Close", command=quit)
 close.pack(side=tk.RIGHT)
 root.mainloop()
-
